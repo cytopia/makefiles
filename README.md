@@ -44,26 +44,33 @@ $ make lint
 For a more specific description see the project's README.md in each collection.
 
 
+## Related [#awesome-ci](https://github.com/topics/awesome-ci) Docker images
+
+Dependency-less Makefiles made possible by the following Docker images.
+
+| Docker image | Type | Description |
+|--------------|------|-------------|
+| [awesome-ci](https://github.com/cytopia/awesome-ci) | Basic | Tools for git, file and static source code analysis |
+| [file-lint](https://github.com/cytopia/docker-file-lint) | Basic | Baisc source code analysis |
+| [jsonlint](https://github.com/cytopia/docker-jsonlint) | Basic | Lint JSON files |
+| [yamllint](https://github.com/cytopia/docker-yamllint) | Basic | Lint Yaml files |
+| [ansible](https://github.com/cytopia/docker-ansible) | Ansible | Multiple versoins of Ansible |
+| [ansible-lint](https://github.com/cytopia/docker-ansible-lint) | Ansible | Lint  Ansible |
+| [gofmt](https://github.com/cytopia/docker-gofmt) | Go | Format Go source code |
+| [golint](https://github.com/cytopia/docker-golint) | Go | Lint Go code |
+| [eslint](https://github.com/cytopia/docker-eslint) | Javascript | Lint Javascript code |
+| [checkmake](https://github.com/cytopia/docker-checkmake) | Make | Lint Makefiles |
+| [phpcs](https://github.com/cytopia/docker-phpcs) | PHP | PHPCodeSniffer and Code Beautifier and Fixer |
+| [black](https://github.com/cytopia/docker-black) | Python | The uncompromising Python code formatter |
+| [pycodestyle](https://github.com/cytopia/docker-pycodestyle) | Python | Python style guide checker |
+| [pylint](https://github.com/cytopia/docker-pylint) | Python | Python source code, bug and quality checker |
+| [terraform-docs](https://github.com/cytopia/docker-terraform-docs) | Terraform | Terraform doc generator (TF 0.12 ready) |
+| [terragrunt](https://github.com/cytopia/docker-terragrunt) | Terraform | Terragrunt and Terraform |
+
+
 ## Contributing
 
-
-See guidelines here: [CONTRIBUTING.md](CONTRIBUTING.md)
-
-
-## Sub-projects
-
-| Docker image                                         |
-|------------------------------------------------------|
-| [ansible](https://github.com/cytopia/docker-ansible) |
-| [ansible-lint](https://github.com/cytopia/docker-ansible-lint) |
-| [awesome-ci](https://github.com/cytopia/awesome-ci) |
-| [eslint](https://github.com/cytopia/docker-eslint) |
-| [file-lint](https://github.com/cytopia/docker-file-lint) |
-| [jsonlint](https://github.com/cytopia/docker-jsonlint) |
-| [pycodestyle](https://github.com/cytopia/docker-pycodestyle) |
-| [terraform-docs](https://github.com/cytopia/docker-terraform-docs) |
-| [terragrunt](https://github.com/cytopia/docker-terragrunt) |
-| [yamllint](https://github.com/cytopia/docker-yamllint) |
+See guidelines here: **[CONTRIBUTING](CONTRIBUTING.md)**
 
 
 ## License
