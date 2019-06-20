@@ -1,23 +1,18 @@
 # Makefiles
 
+[![Build Status](https://travis-ci.com/cytopia/makefiles.svg?branch=master)](https://travis-ci.com/cytopia/makefiles)
 [![Tag](https://img.shields.io/github/tag/cytopia/makefiles.svg)](https://github.com/cytopia/makefiles/releases)
 ![Type](https://img.shields.io/badge/type-Makefile-red.svg)
 [![License](https://img.shields.io/badge/license-MIT-%233DA639.svg)](https://opensource.org/licenses/MIT)
 
-This **[#awesome-ci](https://github.com/topics/awesome-ci)**-based<sup>[1]</sup> project holds a collection of cross-platform compatible **Makefiles** for various different types
+This **[#awesome-ci](https://github.com/topics/awesome-ci)**-based<sup>[1]</sup> repository holds a collection of cross-platform compatible **Makefiles** for various different types
 of projects, which will add the very basic and best-practice linting and file checking to your code.
 
-The default provided stage is `lint`<sup>[2]</sup> and will ensure your code is clean, git-diff
-safe and according to best practices (depending on whatever linter configuration is provided by you).
+The default provided stage is `lint`<sup>[2]</sup> and will ensure your code is **clean**, **git-diff
+safe** and according to **best practices** (depending on whatever linter configuration is provided).
 
 * <sup>[1] See all awesome-ci projects here: https://github.com/topics/awesome-ci</sup>
 * <sup>[2] Some Makefiles might provide more targets (e.g.: `test`, `gen`, ...).</sup>
-
-
-## Requirements
-
-* Docker
-* GNU Make
 
 
 ## Collection
@@ -26,6 +21,12 @@ safe and according to best practices (depending on whatever linter configuration
 |--------------|-------------|
 | [generic](generic) | Makefile for generic projects |
 | [terraform-module](terraform-module) | Makefile for Terraform module (for Terraform < 0.12 and >= 0.12) |
+
+
+## Requirements
+
+* Docker
+* GNU Make
 
 
 ## Installation
@@ -40,13 +41,29 @@ The general usage will always be:
 $ make lint
 ```
 
-For a more specific description, visit the chosen collection's README.md.
+For a more specific description see the project's README.md in each collection.
 
 
 ## Contributing
 
 
 See guidelines here: [CONTRIBUTING.md](CONTRIBUTING.md)
+
+
+## Sub-projects
+
+| Docker image                                         |
+|------------------------------------------------------|
+| [ansible](https://github.com/cytopia/docker-ansible) |
+| [ansible-lint](https://github.com/cytopia/docker-ansible-lint) |
+| [awesome-ci](https://github.com/cytopia/awesome-ci) |
+| [eslint](https://github.com/cytopia/docker-eslint) |
+| [file-lint](https://github.com/cytopia/docker-file-lint) |
+| [jsonlint](https://github.com/cytopia/docker-jsonlint) |
+| [pycodestyle](https://github.com/cytopia/docker-pycodestyle) |
+| [terraform-docs](https://github.com/cytopia/docker-terraform-docs) |
+| [terragrunt](https://github.com/cytopia/docker-terragrunt) |
+| [yamllint](https://github.com/cytopia/docker-yamllint) |
 
 
 ## License
