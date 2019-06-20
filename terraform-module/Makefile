@@ -60,10 +60,10 @@ lint:
 		$(MAKE) --no-print-directory _lint-files; \
 	fi
 	@if [ "$(LINT_TF_ENABLE)" = "1" ]; then \
-		@$(MAKE) --no-print-directory _lint-fmt; \
+		$(MAKE) --no-print-directory _lint-fmt; \
 	fi
 	@if [ "$(LINT_JL_ENABLE)" = "1" ]; then \
-		@$(MAKE) --no-print-directory _lint-json; \
+		$(MAKE) --no-print-directory _lint-json; \
 	fi
 
 test: _pull-tf
@@ -173,6 +173,10 @@ _gen-modules:
 	)
 
 _lint-files: _pull-fl
+	@# Basic file linting
+	@echo "################################################################################"
+	@echo "# File-lint"
+	@echo "################################################################################"
 	@docker run --rm -v $(CURRENT_DIR):/data cytopia/file-lint:$(FL_VERSION) file-cr --text --ignore '.git/,.github/,.terraform/' --path .
 	@docker run --rm -v $(CURRENT_DIR):/data cytopia/file-lint:$(FL_VERSION) file-crlf --text --ignore '.git/,.github/,.terraform/' --path .
 	@docker run --rm -v $(CURRENT_DIR):/data cytopia/file-lint:$(FL_VERSION) file-trailing-single-newline --text --ignore '.git/,.github/,.terraform/' --path .
