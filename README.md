@@ -51,10 +51,10 @@ Dependency-less Makefiles made possible by the following Docker images.
 | Docker image | Type | Description |
 |--------------|------|-------------|
 | [awesome-ci](https://github.com/cytopia/awesome-ci) | Basic | Tools for git, file and static source code analysis |
-| [file-lint](https://github.com/cytopia/docker-file-lint) | Basic | Baisc source code analysis |
+| [file-lint](https://github.com/cytopia/docker-file-lint) | Basic | Basic source code analysis |
 | [jsonlint](https://github.com/cytopia/docker-jsonlint) | Basic | Lint JSON files |
 | [yamllint](https://github.com/cytopia/docker-yamllint) | Basic | Lint Yaml files |
-| [ansible](https://github.com/cytopia/docker-ansible) | Ansible | Multiple versoins of Ansible |
+| [ansible](https://github.com/cytopia/docker-ansible) | Ansible | Multiple versions of Ansible |
 | [ansible-lint](https://github.com/cytopia/docker-ansible-lint) | Ansible | Lint  Ansible |
 | [gofmt](https://github.com/cytopia/docker-gofmt) | Go | Format Go source code |
 | [golint](https://github.com/cytopia/docker-golint) | Go | Lint Go code |
